@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D638B1D51BA26C0800E219CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638B1D41BA26C0800E219CA /* AppDelegate.swift */; };
+		D638B1D71BA26C0800E219CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638B1D61BA26C0800E219CA /* ViewController.swift */; };
+		D638B1DA1BA26C0800E219CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D638B1D81BA26C0800E219CA /* Main.storyboard */; };
+		D638B1DC1BA26C0800E219CA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D638B1DB1BA26C0800E219CA /* Images.xcassets */; };
+		D638B1DF1BA26C0800E219CA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D638B1DD1BA26C0800E219CA /* LaunchScreen.xib */; };
+		D638B1EB1BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638B1EA1BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.swift */; };
+		D638B1F61BA26CC600E219CA /* ARHMAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D638B1F51BA26CC600E219CA /* ARHMAC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D638B1E51BA26C0800E219CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D638B1C71BA26C0800E219CA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D638B1CE1BA26C0800E219CA;
+			remoteInfo = ARHMAC_SHA1_MD5;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D638B1CF1BA26C0800E219CA /* ARHMAC_SHA1_MD5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARHMAC_SHA1_MD5.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638B1D31BA26C0800E219CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D638B1D41BA26C0800E219CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D638B1D61BA26C0800E219CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D638B1D91BA26C0800E219CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D638B1DB1BA26C0800E219CA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D638B1DE1BA26C0800E219CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D638B1E41BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARHMAC_SHA1_MD5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D638B1E91BA26C0800E219CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D638B1EA1BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHMAC_SHA1_MD5Tests.swift; sourceTree = "<group>"; };
+		D638B1F41BA26C6700E219CA /* Bridge_Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Bridge_Header.h; sourceTree = "<group>"; };
+		D638B1F51BA26CC600E219CA /* ARHMAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARHMAC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D638B1CC1BA26C0800E219CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D638B1E11BA26C0800E219CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D638B1C61BA26C0800E219CA = {
+			isa = PBXGroup;
+			children = (
+				D638B1D11BA26C0800E219CA /* ARHMAC_SHA1_MD5 */,
+				D638B1E71BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests */,
+				D638B1D01BA26C0800E219CA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D638B1D01BA26C0800E219CA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D638B1CF1BA26C0800E219CA /* ARHMAC_SHA1_MD5.app */,
+				D638B1E41BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D638B1D11BA26C0800E219CA /* ARHMAC_SHA1_MD5 */ = {
+			isa = PBXGroup;
+			children = (
+				D638B1D41BA26C0800E219CA /* AppDelegate.swift */,
+				D638B1D61BA26C0800E219CA /* ViewController.swift */,
+				D638B1F51BA26CC600E219CA /* ARHMAC.swift */,
+				D638B1D81BA26C0800E219CA /* Main.storyboard */,
+				D638B1DB1BA26C0800E219CA /* Images.xcassets */,
+				D638B1DD1BA26C0800E219CA /* LaunchScreen.xib */,
+				D638B1D21BA26C0800E219CA /* Supporting Files */,
+			);
+			path = ARHMAC_SHA1_MD5;
+			sourceTree = "<group>";
+		};
+		D638B1D21BA26C0800E219CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D638B1D31BA26C0800E219CA /* Info.plist */,
+				D638B1F41BA26C6700E219CA /* Bridge_Header.h */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D638B1E71BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D638B1EA1BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.swift */,
+				D638B1E81BA26C0800E219CA /* Supporting Files */,
+			);
+			path = ARHMAC_SHA1_MD5Tests;
+			sourceTree = "<group>";
+		};
+		D638B1E81BA26C0800E219CA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D638B1E91BA26C0800E219CA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D638B1CE1BA26C0800E219CA /* ARHMAC_SHA1_MD5 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D638B1EE1BA26C0800E219CA /* Build configuration list for PBXNativeTarget "ARHMAC_SHA1_MD5" */;
+			buildPhases = (
+				D638B1CB1BA26C0800E219CA /* Sources */,
+				D638B1CC1BA26C0800E219CA /* Frameworks */,
+				D638B1CD1BA26C0800E219CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARHMAC_SHA1_MD5;
+			productName = ARHMAC_SHA1_MD5;
+			productReference = D638B1CF1BA26C0800E219CA /* ARHMAC_SHA1_MD5.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D638B1E31BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D638B1F11BA26C0800E219CA /* Build configuration list for PBXNativeTarget "ARHMAC_SHA1_MD5Tests" */;
+			buildPhases = (
+				D638B1E01BA26C0800E219CA /* Sources */,
+				D638B1E11BA26C0800E219CA /* Frameworks */,
+				D638B1E21BA26C0800E219CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D638B1E61BA26C0800E219CA /* PBXTargetDependency */,
+			);
+			name = ARHMAC_SHA1_MD5Tests;
+			productName = ARHMAC_SHA1_MD5Tests;
+			productReference = D638B1E41BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D638B1C71BA26C0800E219CA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "刘淋全";
+				TargetAttributes = {
+					D638B1CE1BA26C0800E219CA = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					D638B1E31BA26C0800E219CA = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = D638B1CE1BA26C0800E219CA;
+					};
+				};
+			};
+			buildConfigurationList = D638B1CA1BA26C0800E219CA /* Build configuration list for PBXProject "ARHMAC_SHA1_MD5" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D638B1C61BA26C0800E219CA;
+			productRefGroup = D638B1D01BA26C0800E219CA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D638B1CE1BA26C0800E219CA /* ARHMAC_SHA1_MD5 */,
+				D638B1E31BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D638B1CD1BA26C0800E219CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638B1DA1BA26C0800E219CA /* Main.storyboard in Resources */,
+				D638B1DF1BA26C0800E219CA /* LaunchScreen.xib in Resources */,
+				D638B1DC1BA26C0800E219CA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D638B1E21BA26C0800E219CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D638B1CB1BA26C0800E219CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638B1F61BA26CC600E219CA /* ARHMAC.swift in Sources */,
+				D638B1D71BA26C0800E219CA /* ViewController.swift in Sources */,
+				D638B1D51BA26C0800E219CA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D638B1E01BA26C0800E219CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D638B1EB1BA26C0800E219CA /* ARHMAC_SHA1_MD5Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D638B1E61BA26C0800E219CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D638B1CE1BA26C0800E219CA /* ARHMAC_SHA1_MD5 */;
+			targetProxy = D638B1E51BA26C0800E219CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D638B1D81BA26C0800E219CA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638B1D91BA26C0800E219CA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D638B1DD1BA26C0800E219CA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D638B1DE1BA26C0800E219CA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D638B1EC1BA26C0800E219CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D638B1ED1BA26C0800E219CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D638B1EF1BA26C0800E219CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARHMAC_SHA1_MD5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ARHMAC_SHA1_MD5/Bridge_Header.h;
+			};
+			name = Debug;
+		};
+		D638B1F01BA26C0800E219CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ARHMAC_SHA1_MD5/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = ARHMAC_SHA1_MD5/Bridge_Header.h;
+			};
+			name = Release;
+		};
+		D638B1F21BA26C0800E219CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARHMAC_SHA1_MD5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARHMAC_SHA1_MD5.app/ARHMAC_SHA1_MD5";
+			};
+			name = Debug;
+		};
+		D638B1F31BA26C0800E219CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ARHMAC_SHA1_MD5Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARHMAC_SHA1_MD5.app/ARHMAC_SHA1_MD5";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D638B1CA1BA26C0800E219CA /* Build configuration list for PBXProject "ARHMAC_SHA1_MD5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638B1EC1BA26C0800E219CA /* Debug */,
+				D638B1ED1BA26C0800E219CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D638B1EE1BA26C0800E219CA /* Build configuration list for PBXNativeTarget "ARHMAC_SHA1_MD5" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638B1EF1BA26C0800E219CA /* Debug */,
+				D638B1F01BA26C0800E219CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D638B1F11BA26C0800E219CA /* Build configuration list for PBXNativeTarget "ARHMAC_SHA1_MD5Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D638B1F21BA26C0800E219CA /* Debug */,
+				D638B1F31BA26C0800E219CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D638B1C71BA26C0800E219CA /* Project object */;
+}
